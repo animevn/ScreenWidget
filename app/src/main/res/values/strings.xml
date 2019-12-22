@@ -1,3 +1,10 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">WidgetDemo</string>
+    <string name="appwidget_text" tools:keep="@string/appwidget_text">EXAMPLE</string>
+    <string name="add_widget" tools:keep="@string/add_widget">Add widget</string>
+    <string name="label1">ID</string>
+    <string name="tvID">xx</string>
+    <string name="labelResfresh">Refresh</string>
+    <string name="date_count_format">%1$d @%2$s</string>
+    <string name="bnRefresh">Refresh</string>
 </resources>
