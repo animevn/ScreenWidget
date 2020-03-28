@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.haanhgs.app.widgetdemo">
+    package="com.haanhgs.app.screenwidget">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <receiver android:name=".Widget">
+        <receiver android:name="com.haanhgs.app.screenwidget.Widget">
 
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -22,7 +22,7 @@
                 android:resource="@xml/widget_info" />
         </receiver>
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.haanhgs.app.screenwidget.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />

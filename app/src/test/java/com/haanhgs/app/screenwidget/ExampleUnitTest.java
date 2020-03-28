@@ -1,4 +1,4 @@
-package com.haanhgs.app.widgetdemo;
+package com.haanhgs.app.screenwidget;
 
 import org.junit.Test;
 
