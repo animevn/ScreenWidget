@@ -15,9 +15,6 @@ public class Widget extends AppWidgetProvider {
     private static final String SHARE = "com.haanhgs.app.widgetdemo1";
     private static final String KEY = "key";
 
-
-
-
     public static void updateAppWidget(Context context, AppWidgetManager manager, int appWidgetId) {
         SharedPreferences pref = context.getSharedPreferences(SHARE, Context.MODE_PRIVATE);
         int count = pref.getInt(KEY + appWidgetId, 0);
