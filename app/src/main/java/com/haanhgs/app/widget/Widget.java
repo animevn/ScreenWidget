@@ -61,14 +61,8 @@ public class Widget extends AppWidgetProvider {
         }
     }
 
-    @Override
-    public void onEnabled(Context context) {
-
-    }
-
-    @Override public void onDisabled(Context context) {
-
-    }
+    @Override public void onEnabled(Context context) {}
+    @Override public void onDisabled(Context context) {}
 
 }
 
