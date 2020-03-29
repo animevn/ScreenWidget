@@ -1,4 +1,4 @@
-package com.haanhgs.app.screenwidget;
+package com.haanhgs.app.widget;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
